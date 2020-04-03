@@ -21,6 +21,14 @@ We store the list in lines and then loop through the items in lines. (line 9 and
 For each line, we add a star and a space to the start of the line. Now each string in lines begins with a star. (line 11)
 '''
 
+'''
+(line 13)
+The lines list now contains modified lines that start with stars. But
+pyperclip.copy() is expecting a single string value, not a list of string values.
+To make this single string value, pass lines into the join() method to get a
+single string joined from the list’s strings.
+'''
+
 # worked - copy a list of items, run the program then paste it 
 '''
 * Lists of animals
