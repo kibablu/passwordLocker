@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 class Restaurant():
-    def __init__(self, restaurantName, cuisineType):
+    def __init__(self, restaurantName, cuisineType): # special method
         self.restaurantName = restaurantName # attributes
         self.cuisineType = cuisineType
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 class User():
-    def __init__(self, firstName, lastName, email, password, userName):
+    def __init__(self, firstName, lastName, email, password, userName): # special method
         self.firstName = firstName
         self.lastName = lastName    # attributes
         self.email = email
