@@ -12,7 +12,7 @@ class Restaurant():
 
 favourateRestaurant = Restaurant("Alphonso", "salad") # instance of a class Restaurant
 
-print("My favourite restaurant is " + favourateRestaurant.restaurantName.title() + ".") # callng attributes 
+print("My favourite restaurant is " + favourateRestaurant.restaurantName.title() + ".") # calling attributes 
 print("My favourite food is " + favourateRestaurant.cuisineType.title() + "\n")
 
 favourateRestaurant.describeRestaurant() # calling method openRestaurant

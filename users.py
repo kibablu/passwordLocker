@@ -20,8 +20,7 @@ class User():
 one = User("Alphonso", "Philip", "example@gmail.com", "Alp123", "Alp") # instance of a class User
 two = User("Alexis", "sanchez", "alex@gmail.com", "alex123", "alexisofficial")
 
-print("Hello " + one.firstName.title() + "\t" + one.lastName.title() + ".\n")
-
+print("Hello " + one.firstName.title() + "\t" + one.lastName.title() + ".\n") # calling attributes
 one.describeUser() # calling method describeUser
 one.greetUser()
 
