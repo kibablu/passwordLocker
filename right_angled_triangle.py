@@ -11,3 +11,6 @@ if c == formula:
     print("It is a right angled triangle")
 else:
     print("try again")
+    
+    
+'''Write a program that takes three inputs, a, b and c and prints out whether or not those numbers form a right angled triangle.'''
