@@ -8,7 +8,7 @@ to have you.
 """
 
 
-def format_msg(my_name="Justin", my_website="cfe.sh"):
+def format_msg(my_name="John", my_website="example.com"):
     my_msg = msg_template.format(name=my_name, website=my_website)
     # print(my_msg)
     return my_msg
